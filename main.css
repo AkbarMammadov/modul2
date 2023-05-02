@@ -15,12 +15,14 @@
      font-size: 26px;
      text-align: center;
     }
+    .a321{
+        text-align: center;
+    }
     .a3{
      width: 286px;
      height: 40px;
      border-radius: 10px;
      border: 1px solid #C4C4C4;
-     margin-left: 28px;
     }
     .a3-btn{
         width: 24px;
@@ -48,7 +50,7 @@
     .b1{
     margin-right: 20px;
      background: none;
-     background-image: url('./Group\ 90.png');
+     background-image: url('./Group\ 74.png'); 
      background-repeat: no-repeat;
      background-position: center;
      background-size: contain;
@@ -56,6 +58,23 @@
      width: 30px;
      height: 30px;
     } 
+    .b1:hover{
+        background-image: url('./Group\ 73.png');
+    }
+    .b1-2{
+        width: 30px;
+        height: 30px;
+        margin-right: 20px;
+        border: none;
+        background: none;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: contain;
+        background-image: url('./Group\ 90.png');
+    }
+    .b1-2:hover {
+        background-image: url('./Group\ 91.png');
+    }
     .b12{
         width: 129px;
         height: 42px;
@@ -80,9 +99,20 @@
    }
    .b333{
     position: relative;
+    margin: 8px auto;
+    border: 1px solid #C4C4C4;
+    border-radius: 10px;
+    list-style-type: none ;
+    padding: 4px;
+    height: 24px;
+    width: 280px;
    }
    .a3-btn{
     position: absolute;
-    right: 40px;
-    top: 11px;
+    right: 20px;
+    top: 4px;
+    
+   }
+   .ul12{
+    padding: 0;
    }
